@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.attribution { font-size: 11px; color: #fff; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 110vh;
+}
+
+.box-container, .thank-you{
+    background-color: hsl(213, 19%, 18%);
+    padding: 2rem;
+    border-radius: 0.6225rem;
+    width: 25rem;
+}
+
+.box-container img{
+    background-color:hsl(214, 18%, 25%);
+    padding: 0.6rem;
+    border-radius: 50%;
+}
+
+.box-container h2, .thank-you h2{
+    color: #fff;
+    margin: 2rem 0 1rem;
+}
+
+.box-container p, #thank-you-text{
+    color: hsl(217, 12%, 63%);
+    margin: 0rem 0 1rem;
+    line-height: 1.7rem;
+}
+
+.thank-you{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.thank-you-text{
+    color: hsl(25, 97%, 53%);
+    background-color: hwb(218 31% 63%);
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    margin-top: 2rem;
+}
+
+#thank-you-text{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.btn{
+    background-color: hwb(218 31% 63%);
+    color: hsl(217, 12%, 63%);
+    border-radius: 100%;
+    border: 0 none  #fff;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 1.9rem 0rem;
+    width: 3rem;
+    height: 3rem;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+}
+
+.btn:focus{
+    background-color: #ffffff80;
+    color: #fff;
+}
+
+.submit, #submit{
+    width: 100%;
+    border-radius: 50px;
+    border: 0 solid #fff;
+    padding: 0.7rem ;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: hsl(25, 97%, 53%);
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+}
+
+.submit:hover, #submit:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+button{
+    font-family: inherit;
+}
